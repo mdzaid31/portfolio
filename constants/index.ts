@@ -68,25 +68,52 @@ export const Skill_data = [
     
     {
       skill_name: "PHP",
-      Image: "/mysql.png",
+      Image: "/php.png",
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Flask",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
-    },
+
     {
       skill_name: "FastAPI",
-      Image: "/mysql.png",
+      Image: "/fastapi.png",
       width: 70,
       height: 70,
     },
 
   ];
   
+
+
+  export const UI = [
+    
+    {
+      skill_name: "Figma",
+      Image: "/figma.png",
+      height: 70,
+      width: 50
+    },
+
+    {
+      skill_name: "Canva",
+      Image: "/canva.png",
+      height: 90,
+      width: 90
+    },
+
+  ];
+  
+  export const Source_Control = [
+    
+    {
+      skill_name: "github",
+      Image: "/gitwhite.png",
+      width: 90,
+      height: 90,
+    }
+  ];
+  
+
+
   export const Full_stack = [
     
     {
@@ -97,10 +124,29 @@ export const Skill_data = [
     },
   
     {
-      skill_name: "Figma",
-      Image: "/figma.png",
-      width: 50,
-      height: 50,
+      skill_name: "Django",
+      Image: "/django.png",
+      width: 60,
+      height: 70,
+    },
+  
+  ];
+
+
+  export const Database = [
+    
+    {
+      skill_name: "MySQL",
+      Image: "/mysql.png",
+      width: 90,
+      height: 90,
+    },
+  
+    {
+      skill_name: "Supabase",
+      Image: "/supabase.png",
+      width: 90,
+      height: 90,
     },
   
   ];

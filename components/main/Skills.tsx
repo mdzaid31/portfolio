@@ -1,4 +1,11 @@
-import { Backend_skill, Full_stack, Skill_data } from "@/constants";
+import {
+  Backend_skill,
+  Full_stack,
+  Skill_data,
+  Source_Control,
+  UI,
+  Database,
+} from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
@@ -36,48 +43,93 @@ const Skills = () => {
               <center>
                 <h1>Back-End</h1>
                 <br />
-                <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-                        {Backend_skill.map((image, index) => (
-                          <SkillDataProvider
-                            key={index}
-                            src={image.Image}
-                            width={image.width}
-                            height={image.height}
-                            index={index}
-                          />
-                        ))}
-                      </div>
+                <div className="flex flex-row justify-around flex-wrap mt-4 items-center">
+                  {Backend_skill.map((image, index) => (
+                    <SkillDataProvider
+                      key={index}
+                      src={image.Image}
+                      width={image.width}
+                      height={image.height}
+                      index={index}
+                    />
+                  ))}
+                </div>
               </center>
             </div>
           </div>
           <div className="grid grid-cols-2 p-2 gap-10 items-center">
             <div className="text-[30px] font-bold ml-[10px] hidden md:block text-gray-300">
-              <h1>UI/UX Design</h1>
-              <br />
+              <center>
+                <h1>UI/UX Design</h1>
+                <br />
+                <div className="flex flex-row justify-around flex-wrap mt-4 items-center">
+                  {UI.map((image, index) => (
+                    <SkillDataProvider
+                      key={index}
+                      src={image.Image}
+                      width={image.width}
+                      height={image.height}
+                      index={index}
+                    />
+                  ))}
+                </div>
+              </center>
             </div>
             <div className="text-[30px] font-bold ml-[10px] hidden md:block text-gray-300">
-              <h1>Full Stack</h1>
-              <br />
+              <center>
+                <h1>Full Stack</h1>
+                <br />
+                <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+                  {Full_stack.map((image, index) => (
+                    <SkillDataProvider
+                      key={index}
+                      src={image.Image}
+                      width={image.width}
+                      height={image.height}
+                      index={index}
+                    />
+                  ))}
+                </div>
+              </center>
             </div>
           </div>
-          <div className="p-2 items-center text-[30px] font-bold ml-[10px] hidden md:block text-gray-300">
-            <h1>Source Control</h1>
-            <br />
+          <div className="grid grid-cols-2 p-2 gap-10 items-center">
+            <div className="text-[30px] font-bold ml-[10px] hidden md:block text-gray-300">
+              <center>
+                <h1>Source Control</h1>
+                <br />
+                <div className="flex flex-row justify-around flex-wrap mt-4 items-center">
+                  {Source_Control.map((image, index) => (
+                    <SkillDataProvider
+                      key={index}
+                      src={image.Image}
+                      width={image.width}
+                      height={image.height}
+                      index={index}
+                    />
+                  ))}
+                </div>
+              </center>
+            </div>
+            <div className="text-[30px] font-bold ml-[10px] hidden md:block text-gray-300">
+              <center>
+                <h1>Databases</h1>
+                <br />
+                <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+                  {Database.map((image, index) => (
+                    <SkillDataProvider
+                      key={index}
+                      src={image.Image}
+                      width={image.width}
+                      height={image.height}
+                      index={index}
+                    />
+                  ))}
+                </div>
+              </center>
+            </div>
           </div>
         </div>
-      </div>
-
-
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Full_stack.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
       </div>
 
       <div className="w-full h-full absolute">
