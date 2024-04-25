@@ -37,14 +37,27 @@ export const Skill_data = [
     {
       name: "Discord",
       src: "/discord.svg",
+      href :"https://discord.com/"
     },
     {
       name: "Facebook",
       src: "/facebook.svg",
+      href :"https://www.facebook.com/"
     },
     {
       name: "Instagram",
       src: "/instagram.svg",
+      href :"https://www.instagram.com"
+    },
+    {
+      name: "Github",
+      src: "/github.svg",
+      href :"https://github.com/"
+    },
+    {
+      name: "Linkedin",
+      src: "/linkedin.svg",
+      href :"https://www.linkedin.com/"
     },
   ];
   
@@ -54,13 +67,19 @@ export const Skill_data = [
   export const Backend_skill = [
     
     {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
+      skill_name: "PHP",
+      Image: "/mysql.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "My SQL",
+      skill_name: "Flask",
+      Image: "/mysql.png",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "FastAPI",
       Image: "/mysql.png",
       width: 70,
       height: 70,

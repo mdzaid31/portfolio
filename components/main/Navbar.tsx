@@ -1,8 +1,14 @@
+"use client";
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
 const Navbar = () => {
+  const redirectToSocial = (href: string) => {
+    window.location.href = href;
+  };
+
+  const firstThreeSocials = Socials.slice(0, 3);
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
@@ -19,7 +25,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Hamdan Mohammed
+            MyChatfolio
           </span>
         </a>
 
@@ -41,11 +47,13 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
+          {firstThreeSocials.map((social) => (
             <Image
+              className="cursor-pointer"
               src={social.src}
               alt={social.name}
               key={social.name}
+              onClick={() => redirectToSocial(social.href)}
               width={24}
               height={24}
             />
