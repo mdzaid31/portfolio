@@ -12,7 +12,7 @@ const Certifications = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/2.jpg"
+          src="/sample.png"
           title="Samsung Innovation Campus UAE Artificial
           Intelligence Course"
           description="AI, Machine Learning, and Deep Learning Course.
@@ -20,7 +20,7 @@ const Certifications = () => {
           Preprocessing and Visualization"
         />
         <ProjectCard
-          src="/1.jpg"
+          src="/sample.png"
           title="Shaw Academy - Web development"
           description="Front End Web Development Course
           HTML, CSS, JS

@@ -45,10 +45,17 @@ const Footer = () => {
             </p>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">Read out!</div>
+            <div className="font-bold text-[16px]">Reach out!</div>
+
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <span className="text-[15px] ml-[6px]">+971504142166</span>
+            </p>
 
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">hamdan@gmail.com</span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <span className="text-[15px] ml-[6px]">@hamdam</span>
             </p>
           </div>
         </div>
