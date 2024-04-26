@@ -14,9 +14,11 @@ const Projects = () => {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/1.jpg"
           title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Developed an attendance management system web
+          application
+          Stack Used: HTML CSS JS, PHP, MySQL"
         />
         <ProjectCard
           src="/CardImage.png"
@@ -25,7 +27,6 @@ const Projects = () => {
         />
       </div>
       <br />
-
     </div>
   );
 };
