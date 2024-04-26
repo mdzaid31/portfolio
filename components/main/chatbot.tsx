@@ -55,7 +55,7 @@ const Chatbot: React.FC = () => {
         >
           <div className="streamlit-app">
             <iframe
-              src="http://mychatfolio.streamlit.app/"
+              src="https://mychatfolio.streamlit.app/"
               width="500px"
               height="600px" // Adjust the height as needed
               frameBorder="0"
