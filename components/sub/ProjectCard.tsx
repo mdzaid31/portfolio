@@ -12,7 +12,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <img
         src={src}
-        style={{ height: "300px" }}
+        style={{ maxHeight: "400px" }}
         alt={title}
         className="w-full object-contain"
       />
