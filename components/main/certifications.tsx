@@ -13,26 +13,19 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/2.jpg"
-          title="Persona Adaptive AI Chat Application"
-          description="Developed an innovative AI chatbot web application.
-          Users can create personas and chat with them.
-          Users can upload data files that the chatbot can use as
-          a custom knowledge base.
-          Flask (Python) for backend.
-          OpenAI API as LLM.
-          HTML jinja templates with Tailwindcss for frontend"
+          title="Samsung Innovation Campus UAE Artificial
+          Intelligence Course"
+          description="AI, Machine Learning, and Deep Learning Course.
+          Statistics, Probability, Calculus, Data Analysis,
+          Preprocessing and Visualization"
         />
         <ProjectCard
           src="/1.jpg"
-          title="EduTrack Attendance Management System"
-          description="Developed an attendance management system web
-          application
-          Stack Used: HTML CSS JS, PHP, MySQL"
-        />
-        <ProjectCard
-          src="/CardImage.png"
-          title="MyChatfolio"
-          description="Portfolio Web application with personalised intelligent chatbot."
+          title="Shaw Academy - Web development"
+          description="Front End Web Development Course
+          HTML, CSS, JS
+          Made an online grocery webpage concept that lets you
+          order and outputs your total price."
         />
       </div>
       <br />
