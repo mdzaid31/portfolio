@@ -14,23 +14,21 @@ const Certifications = () => {
         className="h-full flex flex-col md:flex-row gap-10 px-10"
         style={{ width: "500px" }}
       >
-        <center>
-          <ProjectCard
-            src="/sample.png"
-            title="Samsung Innovation Campus UAE AI Certification"
-            description="AI, Machine Learning, and Deep Learning Course.
-            Statistics, Probability, Calculus, Data Analysis,
-            Preprocessing and Visualization"
-          />
-          <ProjectCard
-            src="/sample.png"
-            title="Shaw Academy - Web development"
-            description="Front End Web Development Course
-            HTML, CSS, JS
-            Made an online grocery webpage concept that lets you
-            order and outputs your total price."
-          />
-        </center>
+        <ProjectCard
+          src="/sample.png"
+          title="Samsung Innovation Campus UAE AI Certification"
+          description="AI, Machine Learning, and Deep Learning Course.
+          Statistics, Probability, Calculus, Data Analysis,
+          Preprocessing and Visualization"
+        />
+        <ProjectCard
+          src="/sample.png"
+          title="Shaw Academy - Web development"
+          description="Front End Web Development Course
+          HTML, CSS, JS
+          Made an online grocery webpage concept that lets you
+          order and outputs your total price."
+        />
       </div>
       <br />
     </div>
