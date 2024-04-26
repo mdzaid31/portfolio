@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 
-const Projects = () => {
+const Certifications = () => {
   return (
     <div
       className="flex flex-col items-center justify-center"
@@ -33,4 +33,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Certifications;

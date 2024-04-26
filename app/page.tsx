@@ -3,6 +3,7 @@ import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Image from "next/image";
 import Chatbot from "@/components/main/chatbot";
+import Certifications from "@/components/main/certifications";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <Projects />
+        <Certifications />
       </div>
     </main>
   );
