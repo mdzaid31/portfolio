@@ -13,8 +13,7 @@ const Certifications = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/sample.png"
-          title="Samsung Innovation Campus UAE Artificial
-          Intelligence Course"
+          title="Samsung Innovation Campus UAE AI Certification"
           description="AI, Machine Learning, and Deep Learning Course.
           Statistics, Probability, Calculus, Data Analysis,
           Preprocessing and Visualization"
