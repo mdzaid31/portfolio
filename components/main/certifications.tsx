@@ -12,7 +12,7 @@ const Certifications = () => {
       </h1>
       <div
         className="h-full flex flex-col md:flex-row gap-10 px-10"
-        style={{ width: "500px" }}
+        style={{ width: "900px" }}
       >
         <ProjectCard
           src="/sample.png"
