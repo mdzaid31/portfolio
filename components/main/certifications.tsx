@@ -3,9 +3,12 @@ import ProjectCard from "../sub/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col items-center justify-center" id="projects">
+    <div
+      className="flex flex-col items-center justify-center"
+      id="certifications"
+    >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-2">
-        My Projects
+        My Certifications
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
